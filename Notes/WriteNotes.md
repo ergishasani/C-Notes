@@ -16,8 +16,6 @@ This makes it faster for small outputs but less convenient for formatted text.
 ssize_t write(int file_descriptor, const void *buffer, size_t count);
 ```
 
-````
-
 **Return value:**
 
 - **On success**: Returns the number of bytes actually written.
@@ -142,4 +140,6 @@ void test(void) {
 are more important than convenience or portability.
 For formatted, portable output, use `printf` instead.
 
-````
+```
+
+```
