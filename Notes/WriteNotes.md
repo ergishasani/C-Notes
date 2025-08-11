@@ -116,5 +116,3 @@ void test(void) {
 **Summary:**
 `write` is fast, direct, and unformatted. It’s perfect for low-level output where performance and control are more important than convenience or formatting.
 
-```
-
